@@ -2,13 +2,12 @@
 
 @font-face {
     font-family: "Inconsolata";
-    src: url('./fonts/Inconsolata-VariableFont_wdth,wght.ttf'), format('truetype');
+    src: url('/fonts/Inconsolata-VariableFont_wdth,wght.ttf') format('truetype');
 }
 
 @theme{
     --neutral-0: #FFFFFF;
     --neutral-300: #D1D0D5;
-    --neutral-500: #8784A5;
     --neutral-500: #8784A5;
     --neutral-700: #4B4869;
     --neutral-900: #0D082D;
@@ -27,11 +26,10 @@
 
     --squiggly-width: 160px;
     --squiggly-width-m: 232px;
-    --squiggly-width-xl: 240px;
 }
 
 .img_back{
-    background-image: url('./images/background-mobile.png');
+    background-image: url('/images/background-mobile.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,12 +37,12 @@
 
 @media(min-width: 768px){
     .img_back{
-        background-image: url('./images/background-tablet.png');
+        background-image: url('/images/background-tablet.png');
     }
 }
 
 @media(min-width: 1024px){
     .img_back{
-        background-image: url('./images/background-desktop.png');
+        background-image: url('/images/background-desktop.png');
     }
 }
