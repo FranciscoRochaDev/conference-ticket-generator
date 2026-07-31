@@ -21,6 +21,13 @@
     --gradient-01: linear-gradient(90deg, #F37362 0%, #FFF 100%);
 
     --font-initial: 'Inconsolata', sans-serif;
+
+    --circle-width: 150px;
+    --circle-width-m: 200px;
+
+    --squiggly-width: 160px;
+    --squiggly-width-m: 232px;
+    --squiggly-width-xl: 240px;
 }
 
 .img_back{
