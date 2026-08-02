@@ -1,3 +1,4 @@
+import HeaderTitles from "./components/HeaderTitles"
 
 function App() {
 
@@ -17,6 +18,16 @@ function App() {
         <header>
             <img src="/images/logo-full.svg" alt="Conference Ticket Generator" className="m-auto mt-8" />
         </header>
+        <HeaderTitles
+            title={
+                <>
+                    Your Journey to Coding
+                    <br className="lg:hidden" />Conf 2025
+                    <br className="hidden lg:inline" />Starts Here!
+                </>
+            }
+            subTitle={<>Secure your spot at next year’s <br className="md:hidden" />biggest coding conference.</>}
+        />
     </>
   )
 }
